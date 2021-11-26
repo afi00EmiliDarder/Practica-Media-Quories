@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    border: 1px solid rgb(48, 47, 47);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    width: 58vw;
+    background-color: beige;
+}
+.info article{
+    padding: 0.8rem;
+}
+.card h1{
+    font: bold;
+    color: brown;
+    border-bottom: 1px solid black;
+    margin: 1rem 0;
+}
+.card h2{
+    font: italic;
+    color: rgb(63, 138, 189);
+    border-bottom: 1px solid black;
+    margin: 0 0 0.5rem 0;
+}
+.card p{
+    text-align: justify;
+    line-height: 2rem;
+    font: normal 1.0rem Tahoma;
+}
+.card button{
+    margin-top: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    min-width: 200px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: 0;
+    height: 3rem;
+    border-radius: 5px;
+}
+.card section img{
+    width: 100%;
+    height: auto;
+}
